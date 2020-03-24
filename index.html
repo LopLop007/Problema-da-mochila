@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<meta charset="utf-8">
+	<title>KnapSack</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<div id="caixaFora">
+		
+		<h1>KnapSack Problem</h1>
+		
+		<div id="caixaDentro">
+			
+			<main>
+				
+				<section class="l1c1">
+					
+					<div id="inserirCampo">
+						
+						<label>$</label>
+						<input type="number" id="valor">
+						<label>KG</label>
+						<input type="number" id="peso">
+						<button type="button" class="botAdd" onclick="add_item()">Add</button>
+
+					</div>
+
+					<div id="itensDispo">
+						
+						<h3 style="border: 2px solid black; border-bottom: none; margin-bottom: 0; text-align: center; width:300px;">Itens Disponiveis</h3>
+						<select id="itens" size="10" style="width:304px; border: 2px solid black;">	
+							
+
+						</select>
+
+					</div>
+
+
+				</section>
+				
+				<section class="l1c2">
+					
+					<div id="img">
+						
+						<img src="mochila.jpg" width="180px">
+					
+					</div>
+					
+					<div id="capacidadeCampo">
+						
+						<h3>Capacidade</h3>
+						<input id="cap" type="number" required>
+						<button type="button" onclick="" class="botAdd" onclick="add_peso_mochila()">Add</button>
+					
+					</div>
+
+				</section>
+				
+				<section class="l1c3">
+					
+					<h3 style="text-align: center; margin-top: 60px;">Valor total na mochila = <span style="color:green;" id="resultado"></span></h3>
+
+					<div id="itensInser">
+						<h3 style="border: 2px solid black; border-bottom: none; margin-bottom: 0; text-align: center; width:300px;">Itens inseridos na mochila</h3>
+						<select id="itens2" size="10" style="width:304px; border: 2px solid black;">	
+							
+
+						</select>
+
+					</div>
+
+
+				</section>
+			
+			</main>
+
+
+		</div>
+
+			<div id="botPos">
+				<button id="botInser" onclick="inserir()"><h3>Inserir na mochila</h3></button>
+			</div>
+	
+	</div>
+
+	<script src="knapScript.js"></script>
+
+</body>
+</html>

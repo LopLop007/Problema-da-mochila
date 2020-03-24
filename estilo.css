@@ -1,0 +1,192 @@
+
+
+#caixaFora{
+
+	margin: 0 auto;	
+	max-width: 1000px;
+	height: 600px;
+/*	border: 1px solid black;*/
+
+
+}
+
+#caixaFora h1{
+
+	font-family: helvetica;
+	text-align: center;
+	color:white;
+	background-color: #E55000;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding: 20px;
+	margin-bottom: 0;
+
+
+}
+
+#caixaDentro{
+
+	border: 1px solid black;
+	width: 1000px;
+	height: 450px;
+/*	padding-bottom: 200px;*/
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px gray;
+
+}
+
+
+main{
+
+	display: grid;
+	grid-template-rows: 450px 450px 450px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"l1c1 l1c2 l1c3";
+
+}
+
+section.l1c1{
+
+	padding-top: 50px;
+	grid-area: l1c1;
+
+}
+
+section.l1c2{
+	
+	grid-area: l1c2;
+
+}
+
+section.l1c3{
+	
+	grid-area: l1c3;
+
+}
+
+#img{
+
+	margin: 0 auto;
+	max-width: 180px;
+	margin-top: 60px;
+
+}
+
+#capacidadeCampo{
+
+	margin: 0 auto;
+	max-width: 180px;
+
+
+}
+
+#capacidadeCampo{
+
+	text-align: center;
+
+
+}
+
+#capacidadeCampo .botAdd{
+
+	margin-top: 10px;
+
+}
+
+.botAdd{
+
+	color:white;
+	background-color: #E55000;
+	box-shadow: 2px 2px 2px gray;
+	border: 1px solid #E55000;
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	border-radius: 4px;
+
+}
+
+
+#capacidadeCampo input{
+
+	width: 100px;
+	height: 20px;
+	border:1px solid black;
+}
+
+
+#inserirCampo{
+
+	margin: 0 auto;
+	max-width: 300px;
+
+}
+
+#inserirCampo input{
+
+	width: 80px;
+	height: 25px;
+	border:1px solid black;
+
+}
+
+#itensDispo{
+
+	margin: 0 auto;
+	max-width: 300px;
+
+}
+
+
+#itensInser{
+
+	margin:0 auto;
+	max-width: 300px;
+
+
+}
+
+
+
+#itens >  option{
+
+	color:white;
+	background-color: orange;
+	padding: 4px;
+	border-bottom: 1px solid black;
+
+}
+
+#itens2 > option{
+
+	color:white;
+	background-color: green;
+	padding: 4px;
+	border-bottom: 1px solid black;
+
+}
+
+
+
+#botPos{
+
+	margin: 0 auto;
+	max-width: 150px;
+
+}
+
+
+#botInser{
+
+	color:white;
+	background-color: green;
+	border: 1px solid green; 
+	border-radius: 4px;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+
+}
+
